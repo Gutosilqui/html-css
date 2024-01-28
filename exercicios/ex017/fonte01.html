@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in (polegada), px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            Recomendações da W3C uso é (em) e (px).
+            16px geralmente é igual a 1em. Então 2em é igual a 32px
+            */
+            /*
+            font-size: 1em;
+
+            font-weight: bolder;
+            Peso da font:lighter, normal, bold, bolder.
+
+            font-style: italic; 
+            Estilo da font
+
+            text-decoration: underline;
+            sublinhado na font
+            */}
+
+            h1 {
+                /* 
+                Antes:
+
+                font-family: 'work sans', sans-serif;
+                font-weight: bolder;
+                font-size: 2em;
+                font-style: italic;
+                
+                Agora:
+                shorthand font:
+
+                font-style -> font weight -> font-size -> font-family
+                */
+                font: italic bolder 3em 'work sans', sans-serif;
+            }
+
+            h2 {
+                font: bold 2em 'work sans', sans-serif;
+            }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt animi qui vitae inventore consectetur dolorum voluptatibus vero non adipisci quas exercitationem laboriosam, placeat id fugit sed praesentium libero nisi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi enim sint tenetur incidunt provident doloribus ex quidem. Excepturi nihil, repudiandae quam quibusdam iure minima, soluta veritatis provident maiores possimus reprehenderit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis temporibus dicta ut tenetur eos voluptate nihil libero dignissimos voluptatibus doloribus. Architecto voluptates qui voluptatum fugit, repellat atque magni minima. Temporibus.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae possimus nemo pariatur adipisci veritatis, dignissimos natus cum, explicabo eius maxime autem, reprehenderit eveniet! Minus nostrum minima id similique odit iste.</p>
+</body>
+</html>
